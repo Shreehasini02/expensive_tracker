@@ -1,7 +1,7 @@
 export const API_PATHS = {
     AUTH: {
         REGISTER: '/auth/register',
-        LOGIN: '/auth/login',
+        LOGIN: '/api/auth/login',
         ME: '/auth/me',
     },
     CATEGORIES: {
@@ -11,7 +11,7 @@ export const API_PATHS = {
         DELETE: (id) => `/categories/${id}`,
     },
     TRANSACTIONS: {
-        LIST: '/transactions',
+        LIST: '/api/transactions',
         CREATE: '/transactions',
         GET_BY_ID: (id) => `/transactions/${id}`,
         UPDATE: (id) => `/transactions/${id}`,
